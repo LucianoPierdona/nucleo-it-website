@@ -16,9 +16,18 @@ export const BannerText = styled.div`
     font-size: 1.7rem;
     color: #00909e;
   }
+  @media (max-width: 1400px) {
+    margin: 50px auto;
+    & h1 {
+      width: 75%;
+    }
+    & p {
+      font-size: 1.5rem;
+    }
+  }
   @media (max-width: 768px) {
     width: 90%;
-    margin: 50px auto;
+    margin: 30px auto;
     text-align: center;
     & h1 {
       font-size: 2rem;
@@ -135,7 +144,7 @@ export const CompanyCard = styled.div`
     margin: 0 auto;
   }
   @media (max-width: 768px) {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     & i {
       font-size: 22px;
@@ -171,9 +180,16 @@ export const QuoteMessage = styled.div`
     color: #27496d;
     font-weight: 700;
   }
+  @media (max-width: 1400px) {
+    width: 60%;
+    & p {
+      width: 100%;
+    }
+  }
   @media (max-width: 768px) {
-    width: 100%;
+    width: 95%;
     margin-bottom: 55px;
+    margin-left: 0;
   }
 `;
 
@@ -205,11 +221,13 @@ export const FooterContainer = styled.div`
     font-size: 20px;
   }
   @media (max-width: 1400px) {
-    top: 765rem;
+    top: 757rem;
+    left: 37px;
   }
   @media (max-width: 768px) {
-    top: 1012rem;
-    left: 0;
+    top: 945rem;
+    left: -37px;
+    margin-bottom: 0;
     width: 100%;
     & h1 {
       width: 70%;

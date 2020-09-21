@@ -16,7 +16,7 @@ export const HeaderPage = styled.nav`
 `;
 
 export const HeaderContainer = styled.div`
-  width: 89%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@ export const HeaderContainer = styled.div`
 
 export const LeftHeader = styled.div`
   & a {
-    margin-right: 3px;
+    margin-right: 5px;
   }
   @media (max-width: 768px) {
     display: none;

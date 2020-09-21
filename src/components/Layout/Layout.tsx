@@ -36,7 +36,7 @@ const Layout = () => {
           <img src={vrImg} alt="vr" />
         </BannerImage>
       </ContentContainer>
-      <TitleContainer top="61" mobileTop="61" mediumTop="49">
+      <TitleContainer top="61" mobileTop="61" mediumTop="51">
         <HeaderContainer>
           <h3>A Núcleo</h3>
           <p>
@@ -49,7 +49,7 @@ const Layout = () => {
           </p>
         </HeaderContainer>
       </TitleContainer>
-      <ContentContainer top="70" zIndex="minus" mobileTop="71.5">
+      <ContentContainer top="70" zIndex="minus" mobileTop="62">
         <CardGrid>
           {data.card.map(({ icon, name, description }) => {
             return (
@@ -63,7 +63,7 @@ const Layout = () => {
           })}
         </CardGrid>
       </ContentContainer>
-      <TitleContainer top="186" mobileTop="257" mediumTop="188">
+      <TitleContainer top="186" mobileTop="240" mediumTop="186">
         <HeaderContainer>
           <h3 id="products">Nosso Produtos</h3>
           <p>
@@ -76,17 +76,17 @@ const Layout = () => {
         top="188"
         zIndex="minus"
         display="no"
-        mobileTop="270"
-        mediumTop="195"
+        mobileTop="248"
+        mediumTop="193"
       >
         <ProductContainer />
       </ContentContainer>
-      <TitleContainer top="492" mobileTop="627" mediumTop="459">
+      <TitleContainer top="492" mobileTop="580" mediumTop="459">
         <HeaderContainer>
           <h3 id="about">Nosso Propósito</h3>
           <p>
             Empoderar empresas para estarem a frente de seus concorrentes em
-            seus negócios
+            seus negócios!
           </p>
           <span>
             Thinking Ahead - Realizando projetos de negócios para sua empresa!
@@ -97,8 +97,8 @@ const Layout = () => {
         top="503"
         zIndex="minus"
         display="no"
-        mobileTop="641"
-        mediumTop="470"
+        mobileTop="590"
+        mediumTop="467"
       >
         <CompanyMeta>
           <CompanyCard>
@@ -139,7 +139,7 @@ const Layout = () => {
           </span>
         </QuoteMessage>
       </ContentContainer>
-      <ContentContainer top="573" display="no" mobileTop="766" mediumTop="560">
+      <ContentContainer top="573" display="no" mobileTop="685" mediumTop="535">
         <HeaderContainer>
           <h3>
             <i className="far fa-handshake"></i>
@@ -147,12 +147,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="605" mobileTop="791" mediumTop="589">
+      <PartnersClientsList top="605" mobileTop="716" mediumTop="570">
         {data.partners.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <ContentContainer top="620" display="no" mobileTop="811" mediumTop="600">
+      <ContentContainer top="620" display="no" zIndex="minus" mobileTop="738" mediumTop="580">
         <HeaderContainer>
           <h3>
             <i className="fas fa-users"></i>
@@ -160,12 +160,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="655" mobileTop="838" mediumTop="635">
+      <PartnersClientsList top="655" mobileTop="770" mediumTop="630">
         {data.clients.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <TitleContainer top="741" mobileTop="920" mediumTop="700">
+      <TitleContainer top="741" mobileTop="860" mediumTop="698">
         <HeaderContainer>
           <h3>Suporte ao cliente</h3>
           <p style={{ marginBottom: "2.5rem" }}>
@@ -185,8 +185,8 @@ const Layout = () => {
       <ContentContainer
         top="752"
         zIndex="minus"
-        mobileTop="936"
-        mediumTop="715"
+        mobileTop="872"
+        mediumTop="707"
       >
         <span id="contact" />
         <CompanyLocations />

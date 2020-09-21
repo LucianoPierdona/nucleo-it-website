@@ -51,9 +51,8 @@ export const CompanyCard = styled.div`
   &:hover ul li {
     color: #999;
   }
-  @media (max-width: 1400px) {
-  }
   @media (max-width: 768px) {
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
   }
@@ -77,7 +76,6 @@ export const MapContainer = styled.div`
   @media (max-width: 768px) {
     width: 95%;
     display: block;
-    margin: 0 auto;
     & iframe {
       width: 100%;
     }

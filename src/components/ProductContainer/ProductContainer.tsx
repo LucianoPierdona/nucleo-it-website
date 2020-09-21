@@ -1,8 +1,9 @@
 import React from "react";
-import { MobileView } from "react-device-detect";
+import { isMobile, MobileView } from "react-device-detect";
 import { ProductCardContainer } from "./styles";
 
 const ProductContainer = () => {
+  const showProduct = isMobile ? "none" : "flex";
   return (
     <>
       <ProductCardContainer>
@@ -19,7 +20,7 @@ const ProductContainer = () => {
           alt="factory logo"
         />
       </ProductCardContainer>
-      <ProductCardContainer className="BrowserOnly">
+      <ProductCardContainer style={{ display: `${showProduct}` }}>
         <img
           src="http://nucleosistemas.com.br/images/vendasul.jpg"
           alt="vendasul logo"
@@ -67,7 +68,7 @@ const ProductContainer = () => {
           alt="baco logo"
         />
       </ProductCardContainer>
-      <ProductCardContainer className="BrowserOnly">
+      <ProductCardContainer style={{ display: `${showProduct}` }}>
         <img
           src="http://nucleosistemas.com.br/images/merlin.jpg"
           alt="merlin logo"
@@ -117,7 +118,7 @@ const ProductContainer = () => {
           alt="powerbi logo"
         />
       </ProductCardContainer>
-      <ProductCardContainer className="BrowserOnly">
+      <ProductCardContainer style={{ display: `${showProduct}` }}>
         <img
           src="http://nucleosistemas.com.br/images/tableau.jpeg"
           alt="Tableau logo"
@@ -163,7 +164,7 @@ const ProductContainer = () => {
           alt="mobdi logo"
         />
       </ProductCardContainer>
-      <ProductCardContainer className="BrowserOnly">
+      <ProductCardContainer style={{ display: `${showProduct}` }}>
         <img src="http://nucleosistemas.com.br/images/kim.jpg" alt="kim logo" />
         <div>
           <h1>KIM</h1>
