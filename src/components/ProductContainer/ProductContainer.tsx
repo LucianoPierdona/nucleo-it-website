@@ -6,7 +6,7 @@ const ProductContainer = () => {
   const showProduct = isMobile ? "none" : "flex";
   return (
     <>
-      <ProductCardContainer>
+      <ProductCardContainer style={{ paddingTop: "30px" }}>
         <div>
           <h1>Factory</h1>
           <p>

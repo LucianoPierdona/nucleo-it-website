@@ -6,10 +6,11 @@ export const CompanyList = styled.div`
     color: #142850;
     margin-bottom: 15px;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1400px) and (min-width: 1280px) {
     width: 70%;
   }
   @media (max-width: 768px) {
+    padding-top: 35px;
     margin-top: 28px;
     width: 100%;
   }
@@ -67,14 +68,14 @@ export const MapContainer = styled.div`
     color: #142850;
     font-size: 27px;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1400px) and (min-width: 1280px) {
     margin-top: 50px;
     width: 60%;
     margin-left: 0;
     align-items: center;
   }
   @media (max-width: 768px) {
-    width: 95%;
+    margin-left: 0;
     display: block;
     & iframe {
       width: 100%;

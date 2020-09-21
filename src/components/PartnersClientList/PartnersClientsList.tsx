@@ -22,7 +22,7 @@ const PartnersClientsList: React.FC<{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 4rem;
-    @media (max-width: 1400px) {
+    @media (max-width: 1400px) and (min-width: 1280px) {
       top: ${mediumTop}rem;
       left: 37px;
     }
@@ -33,8 +33,8 @@ const PartnersClientsList: React.FC<{
       gap: 1rem;
       top: ${margin_top}rem;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0), 0 2px 2px rgba(0, 0, 0, 0),
-      0 4px 4px rgba(0, 0, 0, 0), 0 8px 8px rgba(0, 0, 0, 0),
-      0 16px 16px rgba(0, 0, 0, 0);
+        0 4px 4px rgba(0, 0, 0, 0), 0 8px 8px rgba(0, 0, 0, 0),
+        0 16px 16px rgba(0, 0, 0, 0);
     }
   `;
   return <List>{children}</List>;

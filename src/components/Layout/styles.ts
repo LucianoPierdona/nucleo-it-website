@@ -16,7 +16,7 @@ export const BannerText = styled.div`
     font-size: 1.7rem;
     color: #00909e;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1400px) and (min-width: 1280px) {
     margin: 50px auto;
     & h1 {
       width: 75%;
@@ -46,11 +46,12 @@ export const BannerImage = styled.div`
   margin-top: 3rem;
   margin-right: 3rem;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 95%;
     margin-right: 0;
     margin-top: 30px;
     height: 15px;
     & img {
+      width: 90%;
       margin-top: 75px;
     }
   }
@@ -108,7 +109,7 @@ export const CardGrid = styled.div`
   padding: 80px 30px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 30px 10px;
+    padding: 40px 10px;
     margin-top: 24.5rem;
   }
 `;
@@ -118,7 +119,9 @@ export const CompanyMeta = styled.div`
   grid-template-columns: 2fr 2fr;
   gap: 2rem 7rem;
   @media (max-width: 768px) {
+    padding-top: 40px;
     grid-template-columns: 1fr;
+    gap: 2rem 0rem;
     margin-top: 35px;
   }
 `;
@@ -180,16 +183,15 @@ export const QuoteMessage = styled.div`
     color: #27496d;
     font-weight: 700;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1400px) and (min-width: 1280px) {
     width: 60%;
     & p {
       width: 100%;
     }
   }
   @media (max-width: 768px) {
-    width: 95%;
-    margin-bottom: 55px;
-    margin-left: 0;
+    width: 90%;
+    margin: 2rem auto 55px auto;
   }
 `;
 
@@ -197,7 +199,7 @@ export const FooterContainer = styled.div`
   width: 90%;
   position: absolute;
   left: 65px;
-  top: 898rem;
+  top: 833rem;
   margin-bottom: 150px;
   background: #fff;
   border-radius: 1.5rem;
@@ -220,15 +222,16 @@ export const FooterContainer = styled.div`
     color: #142850;
     font-size: 20px;
   }
-  @media (max-width: 1400px) {
-    top: 757rem;
+  @media (max-width: 1400px) and (min-width: 1280px) {
+    top: 740rem;
     left: 37px;
   }
   @media (max-width: 768px) {
     top: 945rem;
-    left: -37px;
-    margin-bottom: 0;
+    display: block;
+    left: -35px;
     width: 100%;
+    margin-bottom: 0;
     & h1 {
       width: 70%;
     }

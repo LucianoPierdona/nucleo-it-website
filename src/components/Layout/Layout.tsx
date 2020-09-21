@@ -63,7 +63,7 @@ const Layout = () => {
           })}
         </CardGrid>
       </ContentContainer>
-      <TitleContainer top="186" mobileTop="240" mediumTop="186">
+      <TitleContainer top="175" mobileTop="240" mediumTop="186">
         <HeaderContainer>
           <h3 id="products">Nosso Produtos</h3>
           <p>
@@ -73,7 +73,7 @@ const Layout = () => {
         </HeaderContainer>
       </TitleContainer>
       <ContentContainer
-        top="188"
+        top="177"
         zIndex="minus"
         display="no"
         mobileTop="248"
@@ -81,7 +81,7 @@ const Layout = () => {
       >
         <ProductContainer />
       </ContentContainer>
-      <TitleContainer top="492" mobileTop="580" mediumTop="459">
+      <TitleContainer top="520" mobileTop="580" mediumTop="459">
         <HeaderContainer>
           <h3 id="about">Nosso Propósito</h3>
           <p>
@@ -94,7 +94,7 @@ const Layout = () => {
         </HeaderContainer>
       </TitleContainer>
       <ContentContainer
-        top="503"
+        top="528"
         zIndex="minus"
         display="no"
         mobileTop="590"
@@ -139,7 +139,7 @@ const Layout = () => {
           </span>
         </QuoteMessage>
       </ContentContainer>
-      <ContentContainer top="573" display="no" mobileTop="685" mediumTop="535">
+      <ContentContainer top="594" display="no" mobileTop="685" mediumTop="535">
         <HeaderContainer>
           <h3>
             <i className="far fa-handshake"></i>
@@ -147,12 +147,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="605" mobileTop="716" mediumTop="570">
+      <PartnersClientsList top="631.5" mobileTop="716" mediumTop="570">
         {data.partners.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <ContentContainer top="620" display="no" zIndex="minus" mobileTop="738" mediumTop="580">
+      <ContentContainer top="649" display="no" mobileTop="738" mediumTop="580">
         <HeaderContainer>
           <h3>
             <i className="fas fa-users"></i>
@@ -160,12 +160,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="655" mobileTop="770" mediumTop="630">
+      <PartnersClientsList top="684" mobileTop="770" mediumTop="613">
         {data.clients.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <TitleContainer top="741" mobileTop="860" mediumTop="698">
+      <TitleContainer top="772" mobileTop="860" mediumTop="680">
         <HeaderContainer>
           <h3>Suporte ao cliente</h3>
           <p style={{ marginBottom: "2.5rem" }}>
@@ -183,10 +183,10 @@ const Layout = () => {
         </HeaderContainer>
       </TitleContainer>
       <ContentContainer
-        top="752"
+        top="781"
         zIndex="minus"
         mobileTop="872"
-        mediumTop="707"
+        mediumTop="691"
       >
         <span id="contact" />
         <CompanyLocations />

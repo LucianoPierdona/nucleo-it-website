@@ -33,7 +33,7 @@ export const ProductCardContainer = styled.div`
       0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
       0 16px 16px rgba(0, 0, 0, 0.04);
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1400px) and (min-width: 1280px) {
     & p {
       width: 85%;
     }

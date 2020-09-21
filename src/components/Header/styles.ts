@@ -10,8 +10,7 @@ export const HeaderPage = styled.nav`
     0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
     0 16px 16px rgba(0, 0, 0, 0.04);
   @media (max-width: 768px) {
-    width: 100vw;
-    margin-left: 0px;
+    width: 100%;
   }
 `;
 
