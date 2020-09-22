@@ -9,7 +9,7 @@ export const HeaderPage = styled.nav`
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04),
     0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04),
     0 16px 16px rgba(0, 0, 0, 0.04);
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 `;
@@ -26,8 +26,9 @@ export const LeftHeader = styled.div`
   & a {
     margin-right: 5px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     display: none;
+    width: 0%;
   }
 `;
 

@@ -9,8 +9,8 @@ export const Card = styled.div`
   transition: 1s;
   &:hover {
     box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.08), 0 -2px 2px rgba(0, 0, 0, 0.08),
-    0 -4px 4px rgba(0, 0, 0, 0.08), 0 -8px 8px rgba(0, 0, 0, 0.08),
-    0 16px 16px rgba(0, 0, 0, 0.08);
+      0 -4px 4px rgba(0, 0, 0, 0.08), 0 -8px 8px rgba(0, 0, 0, 0.08),
+      0 16px 16px rgba(0, 0, 0, 0.08);
   }
   & img {
     width: 100%;
@@ -20,5 +20,8 @@ export const Card = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+  }
+  @media (max-width: 500px) {
+    padding: 2rem;
   }
 `;

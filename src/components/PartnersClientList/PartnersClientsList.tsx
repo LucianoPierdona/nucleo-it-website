@@ -26,11 +26,11 @@ const PartnersClientsList: React.FC<{
       top: ${mediumTop}rem;
       left: 37px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 450px) {
       width: 100%;
-      left: -30px;
+      left: -34px;
       grid-template-columns: 1fr 1fr;
-      gap: 1rem;
+      gap: 1rem 0.7rem;
       top: ${margin_top}rem;
       box-shadow: 0 1px 1px rgba(0, 0, 0, 0), 0 2px 2px rgba(0, 0, 0, 0),
         0 4px 4px rgba(0, 0, 0, 0), 0 8px 8px rgba(0, 0, 0, 0),

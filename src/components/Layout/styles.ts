@@ -25,7 +25,7 @@ export const BannerText = styled.div`
       font-size: 1.5rem;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 90%;
     margin: 30px auto;
     text-align: center;
@@ -45,7 +45,7 @@ export const BannerImage = styled.div`
   height: auto;
   margin-top: 3rem;
   margin-right: 3rem;
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 95%;
     margin-right: 0;
     margin-top: 30px;
@@ -93,7 +93,7 @@ export const HeaderContainer = styled.div`
     background: #142850;
     color: #dae1e7;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 100%;
     margin-bottom: 0;
     & p {
@@ -107,7 +107,7 @@ export const CardGrid = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   padding: 80px 30px;
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     grid-template-columns: 1fr;
     padding: 40px 10px;
     margin-top: 24.5rem;
@@ -118,8 +118,8 @@ export const CompanyMeta = styled.div`
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 2rem 7rem;
-  @media (max-width: 768px) {
-    padding-top: 40px;
+  @media (max-width: 500px) {
+    padding-top: 70 px;
     grid-template-columns: 1fr;
     gap: 2rem 0rem;
     margin-top: 35px;
@@ -146,7 +146,7 @@ export const CompanyCard = styled.div`
     width: 70%;
     margin: 0 auto;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 90%;
     margin: 0 auto;
     & i {
@@ -189,7 +189,7 @@ export const QuoteMessage = styled.div`
       width: 100%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 90%;
     margin: 2rem auto 55px auto;
   }
@@ -226,8 +226,8 @@ export const FooterContainer = styled.div`
     top: 740rem;
     left: 37px;
   }
-  @media (max-width: 768px) {
-    top: 945rem;
+  @media (max-width: 500px) {
+    top: 967rem;
     display: block;
     left: -35px;
     width: 100%;

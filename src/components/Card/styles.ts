@@ -35,7 +35,7 @@ export const CardContainer = styled.div`
   &:hover h3 {
     color: #00909e;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     padding: 1rem 0;
     align-items: center;
     & p {

@@ -9,7 +9,7 @@ export const CompanyList = styled.div`
   @media (max-width: 1400px) and (min-width: 1280px) {
     width: 70%;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     padding-top: 35px;
     margin-top: 28px;
     width: 100%;
@@ -52,9 +52,9 @@ export const CompanyCard = styled.div`
   &:hover ul li {
     color: #999;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 90%;
-    margin: 0 auto;
+    margin: 0;
     margin-bottom: 20px;
   }
 `;
@@ -74,7 +74,7 @@ export const MapContainer = styled.div`
     margin-left: 0;
     align-items: center;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     margin-left: 0;
     display: block;
     & iframe {

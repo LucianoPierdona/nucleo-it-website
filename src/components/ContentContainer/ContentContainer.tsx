@@ -40,13 +40,13 @@ const ContentContainer: React.FC<ContentContainerProps> = ({
       margin-top: ${mediumTop}rem;
       left: 37px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       box-shadow: 0 -8px 6px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0),
         0 4px 4px rgba(0, 0, 0, 0), 0 8px 8px rgba(0, 0, 0, 0),
         0 16px 16px rgba(0, 0, 0, 0);
       z-index: ${haveZIndex};
       width: 100%;
-      left: 0;
+      left: 0px;
       width: 100%;
       padding: 10px 0px;
       text-align: center;

@@ -39,7 +39,7 @@ export const ProductCardContainer = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     width: 100%;
     display: block;
     text-align: center;

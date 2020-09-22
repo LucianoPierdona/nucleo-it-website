@@ -36,7 +36,7 @@ const Layout = () => {
           <img src={vrImg} alt="vr" />
         </BannerImage>
       </ContentContainer>
-      <TitleContainer top="61" mobileTop="61" mediumTop="51">
+      <TitleContainer top="61" mobileTop="58" mediumTop="51">
         <HeaderContainer>
           <h3>A Núcleo</h3>
           <p>
@@ -97,7 +97,7 @@ const Layout = () => {
         top="528"
         zIndex="minus"
         display="no"
-        mobileTop="590"
+        mobileTop="594"
         mediumTop="467"
       >
         <CompanyMeta>
@@ -139,7 +139,7 @@ const Layout = () => {
           </span>
         </QuoteMessage>
       </ContentContainer>
-      <ContentContainer top="594" display="no" mobileTop="685" mediumTop="535">
+      <ContentContainer top="594" display="no" mobileTop="700" mediumTop="535">
         <HeaderContainer>
           <h3>
             <i className="far fa-handshake"></i>
@@ -147,12 +147,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="631.5" mobileTop="716" mediumTop="570">
+      <PartnersClientsList top="631.5" mobileTop="731" mediumTop="570">
         {data.partners.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <ContentContainer top="649" display="no" mobileTop="738" mediumTop="580">
+      <ContentContainer top="649" display="no" mobileTop="752" mediumTop="580">
         <HeaderContainer>
           <h3>
             <i className="fas fa-users"></i>
@@ -160,12 +160,12 @@ const Layout = () => {
           </h3>
         </HeaderContainer>
       </ContentContainer>
-      <PartnersClientsList top="684" mobileTop="770" mediumTop="613">
+      <PartnersClientsList top="684" mobileTop="790" mediumTop="613">
         {data.clients.map(({ image }) => {
           return <PartnerClientCard key={image} image={image} />;
         })}
       </PartnersClientsList>
-      <TitleContainer top="772" mobileTop="860" mediumTop="680">
+      <TitleContainer top="772" mobileTop="881" mediumTop="680">
         <HeaderContainer>
           <h3>Suporte ao cliente</h3>
           <p style={{ marginBottom: "2.5rem" }}>
@@ -185,7 +185,7 @@ const Layout = () => {
       <ContentContainer
         top="781"
         zIndex="minus"
-        mobileTop="872"
+        mobileTop="894"
         mediumTop="691"
       >
         <span id="contact" />

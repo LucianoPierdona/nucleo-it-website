@@ -27,10 +27,10 @@ const TitleContainer: React.FC<TitleContainerProps> = ({
     @media (max-width: 1400px) and (min-width: 1280px) {
       top: ${mediumTop}rem;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       width: 100%;
       margin: 0 auto;
-      left: 3.5px;
+      left: 0px;
       top: ${mobileTop}rem;
     }
   `;
